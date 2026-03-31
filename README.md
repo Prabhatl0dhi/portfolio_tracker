@@ -1,10 +1,10 @@
-# 💼 Personal Portfolio Tracker
+#  Personal Portfolio Tracker
 
 > A command-line Java application to track your Stocks, Cryptocurrencies, and Mutual Funds — with persistent SQLite storage, file I/O export reports, and full OOP design.
 
 ---
 
-## 📚 Course Information
+##  Course Information
 
 | Field | Details |
 |-------|---------|
@@ -14,19 +14,6 @@
 
 ---
 
-## 🎯 Syllabus Coverage
-
-| Unit | Topic | Coverage in Project |
-|------|-------|---------------------|
-| Unit 2 | OOP – Inheritance & Polymorphism | `Asset` (abstract) → `Stock`, `Crypto`, `MutualFund` subclasses |
-| Unit 2 | Encapsulation, Abstract Classes | `Asset.java`, all model classes |
-| Unit 2 | Singleton Pattern | `DatabaseManager.java` |
-| Unit 3 | Exception Handling | `AssetNotFoundException`, `InvalidInputException`, try-catch throughout |
-| Unit 4 | Collections Framework | `ArrayList`, `HashMap`, `Comparator`, sorting |
-| Unit 4 | I/O Streams | `BufferedWriter`, `FileWriter`, `FileOutputStream`, `BufferedReader` |
-| Unit 5 | JDBC – Database | Full CRUD with `PreparedStatement`, `ResultSet`, `Statement` |
-
----
 
 ##  Project Architecture
 
@@ -60,7 +47,7 @@ PortfolioTracker/
 
 ---
 
-## ✨ Features
+##  Features
 
 - **Add Assets** – Stocks, Cryptocurrencies, Mutual Funds
 - **View Portfolio** – Formatted table with live P&L
@@ -75,7 +62,7 @@ PortfolioTracker/
 
 ---
 
-## 🛠️ Setup & Run
+##  Setup & Run
 
 ### Prerequisites
 
@@ -90,7 +77,7 @@ PortfolioTracker/
 ### Windows
 
 ```cmd
-git clone https://github.com/<your-username>/PortfolioTracker.git
+git clone https://github.com/Prabhatl0dhi/PortfolioTracker.git
 cd PortfolioTracker
 run.bat
 ```
@@ -104,7 +91,7 @@ If Java is installed but not in PATH, the script will find it automatically in c
 ### Linux / macOS
 
 ```bash
-git clone https://github.com/<your-username>/PortfolioTracker.git
+git clone https://github.com/Prabhatl0dhi/PortfolioTracker.git
 cd PortfolioTracker
 chmod +x run.sh
 ./run.sh
@@ -147,7 +134,7 @@ java -cp "out;lib\sqlite-jdbc.jar;lib\slf4j-api.jar;lib\slf4j-simple.jar" com.po
 
 ---
 
-## 🚀 Usage
+##  Usage
 
 On launch you will see:
 
@@ -185,7 +172,7 @@ After adding assets, use option **4** to update current prices and option **3** 
 
 ---
 
-## 📖 Java Concepts Demonstrated
+##  Java Concepts Demonstrated
 
 ### OOP – Inheritance & Polymorphism
 ```java
@@ -249,7 +236,7 @@ try {
 
 ---
 
-## 📁 Database Schema
+##  Database Schema
 
 ```sql
 CREATE TABLE assets (
@@ -277,7 +264,7 @@ CREATE TABLE price_history (
 
 ---
 
-## 📝 References
+##  References
 
 1. Herbert Schildt, *Java The Complete Reference*, 11th Edition, Oracle Press, 2018
 2. Deitel & Deitel, *Java How to Program*, 10th Edition, Pearson, 2015
