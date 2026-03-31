@@ -77,7 +77,7 @@ PortfolioTracker/
 ### Windows
 
 ```cmd
-git clone https://github.com/Prabhatl0dhi/PortfolioTracker.git
+git clone https://github.com/Prabhatl0dhi/portfolio_tracker.git
 cd PortfolioTracker
 run.bat
 ```
@@ -91,7 +91,7 @@ If Java is installed but not in PATH, the script will find it automatically in c
 ### Linux / macOS
 
 ```bash
-git clone https://github.com/Prabhatl0dhi/PortfolioTracker.git
+git clone https://github.com/Prabhatl0dhi/portfolio_tracker.git
 cd PortfolioTracker
 chmod +x run.sh
 ./run.sh
